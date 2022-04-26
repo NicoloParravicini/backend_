@@ -24,9 +24,13 @@ API
 Ecco come funziona:
 
 Visualizza impiegati    => GET /employees?page=${page}&size=${size}
+
 Visualizza un impiegato => GET /employees?id=${id}
+
 Rimuovere un impiegato  => DELETE /employees?id=${id}
+
 Aggiungere un impiegato => POST /
+
 Modificare le informazioni di un impiegato => PUT /employees/${id} 
 
 

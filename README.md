@@ -21,9 +21,9 @@ docker exec -it my-mysql-server bash
 mysql -u root -p < /dump/create_employee.sql; exit;
 
 
-API reference
+API reference:
 
-Ecco come funziona:
+Ecco come funziona,
 
 Visualizza impiegati    => GET /employees?page=${page}&size=${size}
 
